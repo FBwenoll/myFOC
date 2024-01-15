@@ -1,0 +1,14 @@
+/home/fbwenoll/clion-2023.3.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/usr/bin/arm-none-eabi-g++ -G "CodeBlocks - Unix Makefiles" -S /home/fbwenoll/CLionProjects/myFOC -B /home/fbwenoll/CLionProjects/myFOC/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Minimal optimization, debug info included
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fbwenoll/CLionProjects/myFOC/cmake-build-debug

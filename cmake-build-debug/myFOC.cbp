@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myFOC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myFOC.elf">
+				<Option output="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/myFOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Core/Inc"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/MyLibrary"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/RT-Thread"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFOC.elf"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myFOC.elf/fast">
+				<Option output="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/myFOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Core/Inc"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/MyLibrary"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/RT-Thread"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh"/>
+					<Add directory="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFOC.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/adc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/gpio.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/main.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/stm32f1xx_it.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/tim.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Inc/usart.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/adc.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/gpio.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/main.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/stm32f1xx_it.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/syscalls.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/sysmem.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/system_stm32f1xx.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/tim.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Src/usart.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Core/Startup/startup_stm32f103vetx.s">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/CMSIS/LICENSE.txt">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config/board.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config/rtconfig.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/cmd.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_api.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_config.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_port.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh/msh.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/finsh/shell.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rtdbg.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rthw.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m3/context_gcc.S">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m3/cpuport.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/clock.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/components.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/cpu.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/idle.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/ipc.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/irq.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/kservice.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/mem.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/memheap.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/mempool.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/object.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/scheduler.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/slab.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/thread.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/Middlewares/Third_Party/RealThread_RTOS/src/timer.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/MyLibrary/SVPWM.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/MyLibrary/SVPWM.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/RT-Thread/rt_mailbox.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/RT-Thread/rt_mailbox.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/RT-Thread/rt_task.c">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/RT-Thread/rt_task.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/RT-Thread/rtconfig.h">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/STM32F103VETX_FLASH.ld">
+			<Option target="myFOC.elf"/>
+		</Unit>
+		<Unit filename="/home/fbwenoll/CLionProjects/myFOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

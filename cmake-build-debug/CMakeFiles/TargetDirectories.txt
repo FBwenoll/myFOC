@@ -1,0 +1,3 @@
+/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/CMakeFiles/myFOC.elf.dir
+/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fbwenoll/CLionProjects/myFOC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
